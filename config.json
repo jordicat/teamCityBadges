@@ -1,5 +1,4 @@
 {
-    "BUILDTYPES" : "EVisionScheduler_Damian,EVisionPnID_Main",
-    "AUTH"       : "{userTeamCity}:{password}",
+	"AUTH"       : "{userTeamCity}:{password}",
     "TEAMCITY"   : "http://builds.evision.io"
 }
