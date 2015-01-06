@@ -1,0 +1,23 @@
+{
+  "name": "tc-badge-frontend",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": "~3.4.4",
+    "request": "~2.27.0",
+    "async": "~0.2.9",
+    "ejs": "~0.8.4",
+    "map-stream": "0.0.3",
+    "ansi-html-stream": "0.0.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "repository": "",
+  "author": "Jose F. Romaniello <jfromaniello@gmail.com> (http://joseoncode.com)",
+  "license": "MIT",
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.2.x"
+  }
+}
