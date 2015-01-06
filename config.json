@@ -1,4 +1,4 @@
 {
-	"AUTH"       : "{userTeamCity}:{password}",
+    "AUTH"       : "{userTeamCity}:{password}",
     "TEAMCITY"   : "http://builds.evision.io"
 }

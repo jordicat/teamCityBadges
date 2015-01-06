@@ -1,8 +1,7 @@
 ## How to configure it: 
-    1. Add build name to the BuildTypes list
+
 ```
 {
-    "BUILDTYPES" : "EVisionScheduler_Damian,EVisionPnID_Main",
     "AUTH"       : "{userTeamCity}:{password}",
     "TEAMCITY"   : "http://builds.evision.io"
 }
