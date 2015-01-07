@@ -21,5 +21,8 @@ http://shields.io/
 
 Check issue https://github.com/eVisionSoftware/eVision.PnID/issues/29
 
-install the service like 
+Install the service with nssm:
+https://nssm.cc/commands
+```
 nssm install TCBadge node "{apppath}server.js" {TeamCityUser} {password}
+```
