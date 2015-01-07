@@ -5,6 +5,7 @@ var app      = express();
 var badges   = require('./badges');
 var shieldsUrl = 'http://img.shields.io/badge/build-pending-red.svg';
 var teamcity = require('./teamcity');
+var config = require('./config.json');
 
 app.get('/:bt', function (req, res) {
   res.set({
@@ -43,7 +44,7 @@ app.get('/:bt/link', function (req, res) {
 	if (lastbuild.running) {
       return res.status(200).redirect('http://img.shields.io/badge/Status-Running-brightgreen.svg');
     }
-    res.status(200).redirect('http://builds.evision.io/viewLog.html?buildId=' + lastbuild.id + '&tab=buildResultsDiv&buildTypeId='+ req.params.bt);
+    res.status(200).redirect(config.TEAMCITY + 'viewLog.html?buildId=' + lastbuild.id + '&tab=buildResultsDiv&buildTypeId='+ req.params.bt);
   });
 });
 
