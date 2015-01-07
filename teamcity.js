@@ -4,8 +4,8 @@ var ansi = require('ansi-html-stream');
 var mapStream = require('map-stream');
 var config = require('./config.json');
 var auth = {
-  user: config.AUTH.split(':')[0],
-  pass: config.AUTH.split(':')[1],
+  user: process.argv[2],
+  pass: process.argv[3],
 };
 
 module.exports.getLastbuild = function (bt, callback) {

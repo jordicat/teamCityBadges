@@ -2,7 +2,6 @@
 
 ```
 {
-    "AUTH"       : "{userTeamCity}:{password}",
     "TEAMCITY"   : "http://builds.evision.io"
 }
 ```
@@ -21,3 +20,6 @@ and getting the icons from here:
 http://shields.io/
 
 Check issue https://github.com/eVisionSoftware/eVision.PnID/issues/29
+
+install the service like 
+nssm install TCBadge node "{apppath}server.js" {TeamCityUser} {password}
